@@ -53,6 +53,34 @@ a {
   text-decoration: none;
 }
 </style>
+<style>
+   .animated {
+      background-image: url(/css/images/logo.png);
+      background-repeat: no-repeat;
+      background-position: left top;
+      padding-top:95px;
+      margin-bottom:60px;
+      -webkit-animation-duration: 10s;
+      animation-duration: 10s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+   }
+
+   @-webkit-keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+   }
+
+   @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+   }
+
+   .fadeIn {
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
+   }
+</style>
 </head>
 
 <body>
@@ -61,9 +89,23 @@ a {
   <div class="row">
     <div class="col-md-12">
       <div class="main-icon text-success"><span class="uxicon uxicon-clock-refresh"></span></div>
-      <h1>Future home of Kates Awesome website.</h1>
-      <p class="lead">If you are a <strong>visitor</strong>, check back soon.</p>
+      <h1>Home of Kates Awesome Website</h1>
+
     </div>
+    <p>The README for this project can be found here...<br /><br />
+    <a href="https://github.com/kate102/project_kate" target="_blank"</a>
+     <button onclick = "myFunction()">GitHub Repository</button>
+     <p>My blog posts can be found here...<br /><br />
+     <a href="https://medium.com/@kate.morris.new" target="_blank"</a>
+      <button onclick = "myFunction()">Medium</button>
+      <p>My LinkedIn account can be found here...<br /><br />
+      <a href="https://www.linkedin.com/in/kate-morris-a3962943/" target="_blank"</a>
+       <button onclick = "myFunction()">LinkedIn</button>
+     <script>
+        function myFunction() {
+           location.reload();
+        }
+     </script>
   </div>
 
 </div>
