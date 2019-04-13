@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coming Soon</title>
+
+<link rel="stylesheet" href="c01.css" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+  p.one {
+    border-colour: #0088dd:}
+  }
+body {
+  /*background: linear-gradient(90deg, white, gray);*/
+  background-color: #eee;
+}
+
+body, h1, p {
+  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin-left:  auto;
+  margin-right:  auto;
+  margin-top: 177px;
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row:before, .row:after {
+  display: table;
+  content: " ";
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+.lead {
+  font-size: 21px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  color: #3282e6;
+  text-decoration: none;
+}
+</style>
+<style>
+   .animated {
+      background-image: url(/css/images/logo.png);
+      background-repeat: no-repeat;
+      background-position: left top;
+      padding-top:95px;
+      margin-bottom:60px;
+      -webkit-animation-duration: 10s;
+      animation-duration: 10s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+   }
+
+   @-webkit-keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+   }
+
+   @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+   }
+
+   .fadeIn {
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
+   }
+</style>
+</head>
+
+<body>
+  <p class="one">This site is the repository for all of my work...and work in progress</p>
+<div class="container text-center" id="error">
+    <img src="/assets/images/dev/image_1.jpg" alt="Smiley face" height="142" width="142">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="main-icon text-success"><span class="uxicon uxicon-clock-refresh"></span></div>
+      <h1>Home of Kates (soon to be) Awesome Website</h1>
+
+    </div>
+
+    <p>The README for this project can be found here...<br /><br />
+    <a href="https://github.com/kate102/project_kate" target="_blank"</a>
+    <button onclick = "myFunction()">GitHub Repository</button>
+
+    <p>My LinkedIn account can be found here...<br /><br />
+    <a href="https://www.linkedin.com/in/kate-morris-a3962943/">
+    <img src="https://www.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png"
+         alt="linkedin" hspace="50" height="42" width="42" target="_blank"></a></p>
+
+    <p>My blog posts can be found here...<br /><br />
+    <a href="https://medium.com/@kate.morris.new">
+    <img src="http://www.webmasto.com/wp-content/uploads/2017/08/Medium-App-Icon-2017.png"
+         alt="medium" hspace="50" height="42" width="42" target="_blank"></a>
+
+    <p>My current C.V. can be found here...<br /><br />
+    <a href="https://github.com/kate102/CV/blob/master/README.md" target="_blank"</a>
+    <button onclick = "myFunction()"><strong>My CV</strong></button>
+
+    <p>My twitter feed can be found here...<br /><br />
+    <a href="https://twitter.com/kateMorris102">
+    <img src="http://goinkscape.com/wp-content/uploads/2015/07/twitter-logo-final.png"
+          alt="twitter" hspace="50" height="42" width="42" target="_blank" ></a>
+
+
+
+     <script>
+        function myFunction() {
+           location.reload();
+        }
+     </script>
+  </div>
+
+</div>
+
+</body>
+</html>
