@@ -28,3 +28,13 @@ The areas that I need to cover are:
 - As 'Kate', so that I can showcase my ability to `program fluently several different languages`, I would like a link on my website to play RPS in Ruby
 - As 'Kate', so that I can showcase my ability to `program fluently several different languages`, I would like a link on my website to play RPS in Java
 - As 'Kate', so that I can showcase my ability to `program fluently several different languages`, I would like a link on my website to play RPS in Kotlin
+
+
+# Idiots Guide
+I am now 6 months into a front end dev role at Deloitte Digital and its high time I have some more thought into my personal website
+One of the things that I realised is that I can't recall how I got this far 9 months ago when I last worked on it so, in order that I don't waste time next time working out the basics, I'm going to write an Idiots Guide... 
+
+# Running
+Locally: Click on index.html 
+Remotely: Open up kate.me.uk
+
